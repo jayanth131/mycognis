@@ -75,8 +75,8 @@ Cognis provides:
 │  • PDF Report Viewer and Downloader                │
 │  • Role-based Dashboards                           │
 └────────────────────────────────────────────────────┘
-                 │ REST API (JWT)
-                 ▼
+                       │ REST API (JWT)
+                       ▼
 ┌────────────────────────────────────────────────────┐
 │                    BACKEND (FastAPI)               │
 │  • Routes: auth, cases, ufdr, chat, report, dash   │
@@ -87,8 +87,8 @@ Cognis provides:
 │  • Cache: Redis (optional)                         │
 │  • Storage: MinIO integration for UFDR files       │
 └────────────────────────────────────────────────────┘
-                 │
-                 ▼
+                        │
+                        ▼
 ┌────────────────────────────────────────────────────┐
 │                    DATABASE / STORAGE              │
 │  • PostgreSQL + pgvector for embeddings            │
